@@ -1,0 +1,94 @@
+*
+{
+    border: 0;
+    margin: 0;
+
+}
+
+h2
+{
+    text-align: center;
+    font-size: 20px;
+    z-index: -1;
+    padding:10px 0;
+
+}
+
+/*-----HEADER-----*/
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header h1 {
+    color: black;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 4px;
+    float: right;
+    padding-right: 10px;
+
+  }
+
+  .header img
+{
+    float: left;
+  width:60px;
+  display: block;
+  margin-left: 0;
+}
+
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*-----Nav Bar-----*/
+
+
+
+nav
+{
+  background-color:lightgrey;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  height: 30px;
+
+}
+
+nav a
+{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+line-height: 30px;
+text-align: center;
+display: block;
+margin: 0 auto;
+  text-decoration: none;
+  
+}
+
+
+
+
