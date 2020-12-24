@@ -1,0 +1,143 @@
+*
+{
+    border: 0;
+    margin: 0;
+
+}
+
+h2
+{
+    text-align: center;
+    font-size: 20px;
+    z-index: -1;
+    padding:10px 0;
+
+}
+
+/*-----HEADER-----*/
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header h1 {
+    color: black;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 4px;
+    float: right;
+    padding-right: 10px;
+
+  }
+
+  .header img
+{
+    float: left;
+  width:60px;
+  display: block;
+  margin-left: 0;
+}
+
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*-----Nav Bar-----*/
+
+
+
+nav
+  {
+    background-color:lightgrey;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    height: 30px;
+  }
+
+nav a
+  {
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    color: black;
+    font-weight: bolder;
+  }
+
+  nav a:visited
+  {
+    color: blue;
+  }
+
+
+
+
+
+
+
+  /*-----Different color tabs -----*/
+  /* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 0;
+  font-size: 17px;
+  width: 25%;
+  text-align: center;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+
+
+
+
+
