@@ -291,6 +291,11 @@ nav
     width: 100%;
     font-size: 18px;
   }
+fa-bars
+{
+   width:50px ;
+    
+}
   
   a {
     text-decoration: none;
